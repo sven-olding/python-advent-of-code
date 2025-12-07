@@ -4190,7 +4190,6 @@ num_pointed_to_zero = 0
 dial_position = 50
 
 MAX_DIAL_POSITION = 99
-MIN_DIAL_POSITION = 0
 
 for rotation in rotations.splitlines():
     direction = rotation[0]
