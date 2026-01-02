@@ -1,12 +1,9 @@
 import operator
 from functools import reduce
-from pathlib import Path
 
-HERE = Path(__file__).parent
-input_file = HERE / "06_input.txt"
+from common import get_puzzle_input
 
-with input_file.open() as f:
-    lines = f.read().splitlines()
+lines = get_puzzle_input("06_input.txt")
 
 # lines = """123 328  51 64
 # 45 64  387 23
